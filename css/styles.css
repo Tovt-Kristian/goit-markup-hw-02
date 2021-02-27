@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+}
+body {
+  font-family: var(--main-font);
+  color: #757575;
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/* ============= COMPONENTS ============= */
+.logo-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--accent-color);
+}
+.logo-part {
+  color: #000000;
+}
+.logo-part-two {
+  color: #ffffff;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+/* ============= END COMPONENTS ============= */
+
+/*-----------------HEADER--------------------*/
+.header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.navigation-link {
+  color: #212121;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+
+.active-link {
+  color: var(--accent-color);
+}
+
+.contact-link {
+  color: #757575;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+/*-----------------END HEADER--------------------*/
+
+/*-----------------MAIN--------------------*/
+/*-----------------HERO--------------------*/
+.hero {
+  background: #2f303a;
+}
+
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  color: #ffffff;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background: #188ce8;
+}
+/*-----------------END HERO--------------------*/
+
+/*-----------------ABOUT--------------------*/
+.about-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.about-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/*-----------------END ABOUT--------------------*/
+
+/*-----------------OUR TEAM--------------------*/
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.18;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*-----------------END OUR TEAM--------------------*/
+
+/*-----------------PORTFOLIO--------------------*/
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/*-----------------END PORTFOLIO--------------------*/
+/*-----------------END MAIN--------------------*/
+
+/*-----------------FOOTER--------------------*/
+.footer {
+  background: #2f303a;
+}
+
+.address {
+  font-style: normal;
+}
+.address-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.addreass-links {
+  color: #ffffff;
+}
+.addreass-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.addreass-links:hover,
+.addreass-links:focus {
+  color: var(--accent-color);
+}
+.addreass-link:hover,
+.addreass-link:focus {
+  color: var(--accent-color);
+}
+/*-----------------END FOOTER--------------------*/
