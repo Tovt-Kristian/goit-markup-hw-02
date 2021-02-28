@@ -14,6 +14,7 @@
   --bg-accent-color: #f5f4fa;
   --bg-button-color: #188ce8;
 }
+
 body {
   font-family: var(--main-font);
   color: var(--text-color);
@@ -98,7 +99,7 @@ body {
 /*-----------------MAIN--------------------*/
 /*-----------------HERO--------------------*/
 .hero {
-  background: var(--bg-main-color);
+  background-color: var(--bg-main-color);
 }
 
 .modal-btn {
@@ -119,7 +120,7 @@ body {
 }
 .modal-btn:hover,
 .modal-btn:focus {
-  background: var(--bg-button-color);
+  background-color: var(--bg-button-color);
 }
 /*-----------------END HERO--------------------*/
 
@@ -142,7 +143,7 @@ body {
 
 /*-----------------OUR TEAM--------------------*/
 .team {
-  background: var(--bg-accent-color);
+  background-color: var(--bg-accent-color);
 }
 .team-title {
   font-weight: 500;
@@ -175,7 +176,7 @@ body {
   cursor: pointer;
 
   color: var(--main-color);
-  background: var(--bg-accent-color);
+  background-color: var(--bg-accent-color);
   border-radius: 4px;
 }
 .portfolio-btn:hover,
@@ -208,7 +209,7 @@ body {
 
 /*-----------------FOOTER--------------------*/
 .footer {
-  background: var(--bg-main-color);
+  background-color: var(--bg-main-color);
 }
 
 .address {
